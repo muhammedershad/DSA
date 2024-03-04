@@ -77,7 +77,7 @@ class MinHeap {
   heap.deleteNode(0);
   console.log(heap.deleteNode(4));
   
-  console.log(heap.deleteMin());
+  heap.deleteMin()
   console.log(heap.deleteMin());
   console.log(heap.deleteMin());
   console.log(heap.deleteMin());
